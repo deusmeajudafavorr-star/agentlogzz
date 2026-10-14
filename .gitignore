@@ -1,0 +1,20 @@
+# Dados locais, contatos importados e sessões autenticadas
+data/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+.local-secrets/
+
+# Dependências e configurações locais
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+npm-debug.log*
